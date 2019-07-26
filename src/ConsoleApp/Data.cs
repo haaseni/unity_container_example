@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp
+﻿using ConsoleApp.Interfaces;
+
+namespace ConsoleApp
 {
     public class Data : IData
     {

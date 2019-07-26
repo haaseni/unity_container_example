@@ -2,7 +2,7 @@
 using Unity.Extension;
 using Unity.Lifetime;
 
-namespace ConsoleApp
+namespace ConsoleApp.DependencyInjection
 {
     public class DependencyInjector
     {

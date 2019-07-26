@@ -52,14 +52,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="DependencyInjection\Bootstrapper.cs" />
     <Compile Include="Business.cs" />
     <Compile Include="Data.cs" />
-    <Compile Include="DependencyInjector.cs" />
-    <Compile Include="DependencyOfDependencyExtension.cs" />
-    <Compile Include="IBusiness.cs" />
-    <Compile Include="IData.cs" />
-    <Compile Include="Initiator.cs" />
+    <Compile Include="DependencyInjection\DependencyInjector.cs" />
+    <Compile Include="DependencyInjection\DependencyOfDependencyExtension.cs" />
+    <Compile Include="Interfaces\IBusiness.cs" />
+    <Compile Include="Interfaces\IData.cs" />
+    <Compile Include="DependencyInjection\Initiator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

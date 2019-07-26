@@ -1,7 +1,8 @@
-﻿using Unity;
+﻿using ConsoleApp.Interfaces;
+using Unity;
 using Unity.Extension;
 
-namespace ConsoleApp
+namespace ConsoleApp.DependencyInjection
 {
     public class DependencyOfDependencyExtension : UnityContainerExtension
     {
